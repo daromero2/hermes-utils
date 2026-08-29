@@ -1,7 +1,10 @@
 name: hermes-utils
 label: Hermes Utils
 description: Utility plugin for Hermes Agent
-version: 1.0.0
+version: 1.0.1
 icon: Wrench
 has_api: true
 entry: dist/index.js
+hooks:
+  on_load: true
+  on_install: install.sh
